@@ -19,7 +19,7 @@ class SolutionTest {
         String[] data = strData.split(";");
         if (result == null) result = "";
         Solution solution = new Solution();
-        assertEquals(result, solution.longestCommonPrefix(data), "Error in " + strData + "->" + result);
+        assertEquals(result, solution.longestCommonPrefix(data), "Error in " + strData + " -> " + result);
     }
 
 }
