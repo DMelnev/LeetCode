@@ -10,7 +10,10 @@ class SolutionTest {
     @ParameterizedTest
     @CsvSource(value = {
             "fl, flower;flow;flight",
-            ", dog;racecar;car"
+            ", dog;racecar;car",
+            "dop, doplai;dopvcxb;dop;doprwesgfd",
+            "fg, fg",
+            "a, ab;a"
     })
     void longestCommonPrefix(String result, String strData) {
         String[] data = strData.split(";");
