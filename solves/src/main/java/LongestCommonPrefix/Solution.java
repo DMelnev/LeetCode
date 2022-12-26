@@ -14,4 +14,7 @@ public class Solution {
         }
         return start;
     }
+    public void nope(){
+        return;
+    }
 }
